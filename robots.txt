@@ -1,0 +1,5 @@
+# Group 2
+User-agent: *
+Allow: /
+
+Sitemap: https://prc-initiative.org/sitemap.xml

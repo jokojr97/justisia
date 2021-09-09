@@ -1,0 +1,4 @@
+[05-Mar-2020 11:26:12 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$kabupaten' (T_VARIABLE), expecting ',' or ';' in /home/opengovb/Justisia-Institute.org/application/views/home/peta_desa.php on line 14
+[29-Mar-2020 13:56:54 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/opengovb/Justisia-Institute.org/application/views/home/berita_view.php on line 24
+[17-Apr-2020 21:31:28 Asia/Jakarta] PHP Fatal error:  Call to undefined function limit_words() in /home/opengovb/Justisia-Institute.org/application/views/home/overview.php on line 52
+[17-Apr-2020 21:31:31 Asia/Jakarta] PHP Fatal error:  Call to undefined function limit_words() in /home/opengovb/Justisia-Institute.org/application/views/home/overview.php on line 52
