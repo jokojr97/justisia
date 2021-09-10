@@ -54,6 +54,11 @@ $route['sitemap\.xml'] = 'sitemap/index';
 $route['feed'] = 'rss/index';
 //admin page
 $route['admin/page'] = 'admins/page/index';
+//admin Users
+$route['admin/users'] = 'admins/users/index';
+$route['admin/users/add'] = 'admins/users/add';
+$route['admin/users/edit'] = 'admins/users/edit';
+$route['admin/users/delete'] = 'admins/users/delete';
 // admin posttype
 $route['admin/tipe_post'] = 'admins/posttype/index';
 $route['admin/postype/edit/(:any)'] = 'admins/posttype/edit';

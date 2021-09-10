@@ -33,64 +33,6 @@
               </p>
             </a>
           </li>
-          <!-- <li class="nav-item has-treeview">
-            <a href="#" class="nav-link <?php  if($this->session->flashdata('menu') == "datadesa"){echo "active";} ?>">
-              <i class="nav-icon fas fa-chart-pie"></i>
-              <p>
-                Data Provinsi
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="<?= base_url('admin/data_provinsi') ?>" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Lihat Data</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('admin/import_data_prov') ?>" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Import Data</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('admin/export_data_prov') ?>" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Export Data</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link <?php  if($this->session->flashdata('menu') == "datadesa"){echo "active";} ?>">
-              <i class="nav-icon fas fa-chart-bar"></i>
-              <p>
-                Data Kabupaten
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="<?= base_url('admin/data_desa') ?>" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Lihat Data</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('admin/import_data') ?>" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Import Data</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('admin/export_data') ?>" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Export Data</p>
-                </a>
-              </li>
-            </ul>
-          </li> -->
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link <?php  if($this->session->flashdata('menu') == "page"){echo "active";} ?>">
               <i class="nav-icon far fa-newspaper"></i>
@@ -166,7 +108,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item has-treeview">
+          <!-- <li class="nav-item has-treeview">
             <a href="<?= base_url('admin/aspirasi_publik') ?>" class="nav-link <?php if($this->session->flashdata('menu') == "aspirasi"){echo "active";} ?>">
               <i class="nav-icon fas fa-comments"></i>
               <p>
@@ -174,12 +116,12 @@
               </p>
             </a>
             
-          </li>
+          </li> -->
           <li class="nav-item has-treeview">
-            <a href="<?= base_url('admin/profil') ?>" class="nav-link <?php if($this->session->flashdata('menu') == "profil"){echo "active";} ?>">
-              <i class="nav-icon fas fa-user"></i>
+            <a href="<?= base_url('admin/users') ?>" class="nav-link <?php if($this->session->flashdata('menu') == "users"){echo "active";} ?>">
+              <i class="nav-icon fas fa-users"></i>
               <p>
-                Profil Saya
+                Users
               </p>
             </a>
             
@@ -188,7 +130,7 @@
             <a href="<?= base_url('admin/change_password') ?>" class="nav-link <?php if($this->session->flashdata('menu') == "password"){echo "active";} ?>">
               <i class="nav-icon fas fa-key"></i>
               <p>
-                Ganti Password
+                Change Password
               </p>
             </a>
             
