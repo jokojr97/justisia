@@ -113,7 +113,6 @@
 
       </div><!--/. container-fluid -->
 <?php $this->load->view('admin/_partial/footer') ?>
-<!-- <?php $this->load->view('admin/_partial/highchart') ?> -->
 <script>
 function konfirmasi(id){
   const konfirm = confirm("Apakah Anda yakin ingin menghapus Postingan ini?");

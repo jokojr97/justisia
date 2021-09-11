@@ -4,7 +4,7 @@
   </div>
   <!-- /.content-wrapper -->
   <!-- Main Footer -->
-  <footer class="main-footer">
+  <footer class="main-footer" style="position:static;">
     <strong>Copyright &copy; 2021 <a href="<?= base_url() ?>">JUSTISIA INSTITUTE</a>.</strong>
     All rights reserved.
   </footer>

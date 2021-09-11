@@ -1,4 +1,5 @@
 <?php $this->load->view('admin/_partial/header'); ?>
+    
 
       <div class="container-fluid bg-white">
         <!-- <?= $this->session->flashdata('message'); ?> -->
@@ -12,21 +13,21 @@
                     <!-- form group -->
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name" value="<?= $user['nama'] ?>">
                         <?= form_error('name', '<small class="text-danger pl-1">', '</small>') ?>
                     </div>
                     <!-- // form-group -->
                     <!-- form-group -->
                     <div class="form-group">
                         <label for="username">Username</label>
-                        <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username">
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username" value="<?= $user['username'] ?>">
                         <?= form_error('username', '<small class="text-danger pl-1">', '</small>') ?>
                     </div>
                     <!-- // form-group -->
                     <!-- form-group -->
                     <div class="form-group">
                         <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email">
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email" value="<?= $user['email'] ?>">
                         <?= form_error('email', '<small class="text-danger pl-1">', '</small>') ?>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
@@ -56,7 +57,7 @@
                     <!-- form-group -->
                     <div class="form-group">
                         <label for="password1">Password</label>
-                        <input type="password" class="form-control" id="password1" name="password1" placeholder="Make New Password">
+                        <input type="password" class="form-control" id="password1" name="password1" placeholder="Make New Password"  readonly="on">
                         <input type="checkbox" value="" id="showpwd1" onclick="myFunction()">
                         <label class="form-check-label" for="defaultCheck1" onclick="myFunction()">
                             Show Password
@@ -67,7 +68,7 @@
                     <!-- form-group -->
                     <div class="form-group">
                         <label for="password2">Repeat Password</label>
-                        <input type="password" class="form-control" id="password2" placeholder="Repeat Your Password" name="password2">
+                        <input type="password" class="form-control" id="password2" placeholder="Repeat Your Password" name="password2" readonly="on">
                         <input type="checkbox" value="" id="showpwd2" onclick="myFunction()">
                         <label class="form-check-label" for="defaultCheck1" onclick="myFunction()">
                             Show Password
